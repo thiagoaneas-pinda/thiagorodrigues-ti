@@ -182,7 +182,7 @@ export default function PortfolioPage() {
             <li>Supervisão e configuração de rotinas de backup utilizando Veeam, com retenção em NAS e replicação para cloud.</li>
             <li>Mitigação de riscos operacionais, monitoramento avançado e aumento da previsibilidade da operação.</li>
             <li>Atuação em testes formais de BCP/DR e continuidade operacional.</li>
-            <li>Zabbix End-to-End. ashboards estratégicos, tuning de performance e monitoramento proativo para suporte à alta disponibilidade de infraestruturas globais. </li>
+            <li>Zabbix End-to-End. Dashboards estratégicos, tuning de performance e monitoramento proativo para suporte à alta disponibilidade de infraestruturas globais. </li>
           </ul>
         </div>
 
