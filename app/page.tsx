@@ -145,6 +145,20 @@ export default function PortfolioPage() {
         />
       </a>
 
+      {/* IDIOMAS */}
+      <a 
+        href="https://thiagorodrigues-ti-en.vercel.app" 
+        target="_self"
+        className="ml-8 transition-all hover:scale-110 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]"
+        title="Switch to English"
+      >
+        <img 
+          src="/usa-flag.png" 
+          alt="English Version" 
+          className="w-10 h-auto object-contain rounded-sm"
+        />
+      </a>
+
     </div>
     </div>
   </header>
