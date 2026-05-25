@@ -1,0 +1,1 @@
+<span className="text-sm font-medium text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full whitespace-nowrap">Set/2025 - Presente</span>

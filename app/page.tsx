@@ -180,6 +180,17 @@ export default function PortfolioPage() {
 
       {/* TIMELINE DE EXPERIÊNCIAS */}
       <div className="space-y-10">
+
+        {/* CARGO 0 */}
+        <div className="relative pl-8 before:absolute before:left-0 before:top-2 before:h-full before:w-[2px] before:bg-gray-800">
+          {/* Ponto Dourado na Timeline */}
+          <div className="absolute -left-[5px] top-2 h-3 w-3 rounded-full bg-[#D4AF37] shadow-[0_0_8px_rgba(212,175,55,0.6)]"></div>
+          
+          <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between mb-2">
+            <h3 className="text-2xl font-semibold text-white">Próxima Temporada</h3>
+          </div>
+          <p className="text-lg font-medium text-gray-300 mb-2">COMING SOON</p>
+          </div>
         
         {/* CARGO 1 */}
         <div className="relative pl-8 before:absolute before:left-0 before:top-2 before:h-full before:w-[2px] before:bg-gray-800">
@@ -188,7 +199,7 @@ export default function PortfolioPage() {
           
           <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between mb-2">
             <h3 className="text-2xl font-semibold text-white">Supervisor de TI</h3>
-            <span className="text-sm font-medium text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full whitespace-nowrap">Set/2025 - Presente</span>
+            <span className="text-sm font-medium text-gray-400 bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap">Set/2025 - Maio/2026</span>
           </div>
           <p className="text-lg font-medium text-gray-300 mb-2">GV do Brasil - Grupo SIMEC</p>
           <ul className="list-disc list-outside space-y-2 pl-5 text-gray-400 text-base">
