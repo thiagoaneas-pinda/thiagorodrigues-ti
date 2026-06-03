@@ -16,30 +16,12 @@ const TYPEWRITER_ROLES = [
 ];
 
 const ABOUT_HIGHLIGHTS = [
-  {
-    icon: "🏭",
-    text: "Infraestrutura de missão crítica em ambientes industriais globais com uptime acima de 99,9%",
-  },
-  {
-    icon: "☁️",
-    text: "Cloud híbrida Azure/AWS/GCP — migrações complexas de on-premise para cloud",
-  },
-  {
-    icon: "🔒",
-    text: "Cibersegurança, IAM/PAM com CyberArk e conformidade ISO 27001",
-  },
-  {
-    icon: "💡",
-    text: "Virtualização avançada: Proxmox, VMware e Hyper-V em produção real",
-  },
-  {
-    icon: "📊",
-    text: "Observabilidade Zabbix end-to-end, gestão de backups e BCP/DR",
-  },
-  {
-    icon: "🎯",
-    text: "Governança ITIL, COBIT e liderança técnica em ambientes regulamentados",
-  },
+  "Infraestrutura de missão crítica em ambientes industriais globais com uptime acima de 99,9%",
+  "Cloud híbrida Azure/AWS/GCP — migrações complexas de on-premise para cloud",
+  "Cibersegurança, IAM/PAM com CyberArk e conformidade ISO 27001",
+  "Virtualização avançada: Proxmox, VMware e Hyper-V em produção real",
+  "Observabilidade Zabbix end-to-end, gestão de backups e BCP/DR",
+  "Governança ITIL, COBIT e liderança técnica em ambientes regulamentados",
 ];
 
 interface Experience {
@@ -597,7 +579,6 @@ function HeroSection() {
                   className="hex-photo"
                 />
               </div>
-              <div className="orbit-badge">28 Anos de Carreira</div>
             </div>
           </div>
         </div>
@@ -807,13 +788,12 @@ function AboutSection() {
             <div
               style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
             >
-              {ABOUT_HIGHLIGHTS.map((h, i) => (
+              {ABOUT_HIGHLIGHTS.map((text, i) => (
                 <div
                   key={i}
                   style={{
                     display: "flex",
                     alignItems: "flex-start",
-                    gap: "1rem",
                     background: "rgba(255,255,255,0.03)",
                     border: "1px solid rgba(255,255,255,0.06)",
                     borderRadius: "12px",
@@ -834,9 +814,6 @@ function AboutSection() {
                       "rgba(255,255,255,0.03)";
                   }}
                 >
-                  <span style={{ fontSize: "1.35rem", flexShrink: 0 }}>
-                    {h.icon}
-                  </span>
                   <span
                     style={{
                       color: "rgba(255,255,255,0.65)",
@@ -844,7 +821,7 @@ function AboutSection() {
                       lineHeight: 1.55,
                     }}
                   >
-                    {h.text}
+                    {text}
                   </span>
                 </div>
               ))}
