@@ -1,4 +1,4 @@
-"use client";
+	"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 
@@ -13,6 +13,7 @@ const TYPEWRITER_ROLES = [
   "Cibersegurança & Governança de TI",
   "Virtualização de Alta Performance",
   "28 Anos de Carreira em Tecnologia",
+  "Analista de Soluções de TI"
 ];
 
 const ABOUT_HIGHLIGHTS = [
@@ -35,12 +36,16 @@ interface Experience {
 
 const MAIN_EXPERIENCES: Experience[] = [
   {
-    role: "Próximo Capítulo",
-    company: "COMING SOON",
-    period: "2026 →",
-    upcoming: true,
-    accentColor: "blue",
-    bullets: [],
+    role: "Analista de Soluções de TI",
+    company: "Pilkington do Brasil",
+    period: "2026 - Presente",
+    accentColor: "gold",
+    bullets: [
+	  "Gestão, sustentação e melhoria contínua de sistemas de negócios globais (DBS).",
+      "Administração de servidores, ambientes virtualizados e suporte técnico de Nível 3 para garantia de alta disponibilidade da operação.",
+      "Atuação estratégica na ponte técnica entre as diretrizes de TI da matriz global e as necessidades operacionais da planta local.",
+      "Garantia de conformidade com políticas corporativas de cibersegurança, governança de dados e continuidade de negócios (BCP)."
+	],
   },
   {
     role: "Supervisor de TI",
