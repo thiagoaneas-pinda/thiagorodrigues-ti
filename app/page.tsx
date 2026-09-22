@@ -778,6 +778,7 @@ function AboutSection() {
                 color: "rgba(255,255,255,0.42)",
                 fontSize: "0.975rem",
                 lineHeight: 1.82,
+				marginBottom: "1.5rem",
               }}
             >
               De EMBRAER e Alstom às operações globais da SLB Onesubsea, aprendi
@@ -791,6 +792,7 @@ function AboutSection() {
                 color: "rgba(255,255,255,0.42)",
                 fontSize: "0.975rem",
                 lineHeight: 1.82,
+				marginBottom: "1.5rem",
               }}
             >
               Atuação especializada em governança técnica e suporte N3 para soluções 
