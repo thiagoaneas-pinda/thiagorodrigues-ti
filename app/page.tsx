@@ -1,4 +1,4 @@
-	"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 
@@ -36,16 +36,17 @@ interface Experience {
 
 const MAIN_EXPERIENCES: Experience[] = [
   {
-    role: "Analista de Soluções de TI",
+    role: "Analista DBS (Digital Business Solutions / 3rd Party)",
     company: "Pilkington do Brasil",
     period: "2026 - Presente",
     accentColor: "gold",
     bullets: [
-	  "Gestão, sustentação e melhoria contínua de sistemas de negócios globais (DBS).",
-      "Administração de servidores, ambientes virtualizados e suporte técnico de Nível 3 para garantia de alta disponibilidade da operação.",
-      "Atuação estratégica na ponte técnica entre as diretrizes de TI da matriz global e as necessidades operacionais da planta local.",
-      "Garantia de conformidade com políticas corporativas de cibersegurança, governança de dados e continuidade de negócios (BCP)."
-	],
+      "Sustentação, governança e suporte L3 para ecossistema híbrido de aplicações corporativas de missão crítica (24x7).",
+      "Administração de infraestrutura para Sistema de RH Senior hospedado em instâncias AWS, garantindo alta disponibilidade, IAM e rotinas de backup.",
+      "Gestão e suporte operacional de plataformas fiscais e aduaneiras Thomson Reuters (TaxOne e COMEX) via ambiente Citrix Workspace (SaaS).",
+      "Monitoramento, troubleshooting e validação de fluxos de mensageria B2B / EDI integrados via VAN Sintel com parceiros automotivos e ERP.",
+      "Ponto focal técnico com fornecedores (Senior, Thomson Reuters, Sintel), gestão de SLAs, validação de patches/releases e BCP."
+    ],
   },
   {
     role: "Supervisor de TI",
@@ -93,6 +94,7 @@ const SKILL_CATEGORIES = [
   "Segurança",
   "Gestão",
   "Monitoramento",
+  "Sistemas Corporativos & Integrações B2B"
 ] as const;
 type SkillCategory = (typeof SKILL_CATEGORIES)[number];
 
@@ -123,6 +125,12 @@ const SKILLS: { name: string; cat: SkillCategory }[] = [
   { name: "Veeam", cat: "Monitoramento" },
   { name: "Commvault", cat: "Monitoramento" },
   { name: "Avamar", cat: "Monitoramento" },
+  { name: "Menssageria EDI (Sintel)", cat: "Sistemas Corporativos & Integrações B2B" },
+  { name: "TaxOne & COMEX (Tomson Reuters)", cat: "Sistemas Corporativos & Integrações B2B" },
+  { name: "CITRIX SaaS / Virtual Apps", cat: "Sistemas Corporativos & Integrações B2B" },
+  { name: "Senior RH ERP", cat: "Sistemas Corporativos & Integrações B2B" },
+  { name: "SAP Basis/Integrations", cat: "Sistemas Corporativos & Integrações B2B" },
+  { name: "Governança de Fornecedores / 3rd Party", cat: "Sistemas Corporativos & Integrações B2B" },
 ];
 
 const CERTS = [
@@ -778,7 +786,7 @@ function AboutSection() {
                 color: "rgba(255,255,255,0.42)",
                 fontSize: "0.975rem",
                 lineHeight: 1.82,
-				marginBottom: "1.5rem",
+                marginBottom: "1.5rem",
               }}
             >
               De EMBRAER e Alstom às operações globais da SLB Onesubsea, aprendi
@@ -787,18 +795,18 @@ function AboutSection() {
               experiência para times que precisam de mais do que um
               &quot;especialista&quot;, precisam de um guardião da operação.
             </p>
-			<p
+            <p
               style={{
                 color: "rgba(255,255,255,0.42)",
                 fontSize: "0.975rem",
                 lineHeight: 1.82,
-				marginBottom: "1.5rem",
+                marginBottom: "1.5rem",
               }}
             >
-              Atuação especializada em governança técnica e suporte N3 para soluções 
-			  de missão crítica de terceiros (3rd Party / DBS), abrangendo ecossistemas
-			  fiscais e aduaneiros (Thomson Reuters via Citrix), RH corporativo (Senior em AWS) 
-			  e pipelines de integração B2B/EDI (Sintel).
+              Atuação especializada em governança técnica e suporte N3 para soluções
+              de missão crítica de terceiros (3rd Party / DBS), abrangendo ecossistemas
+              fiscais e aduaneiros (Thomson Reuters via Citrix), RH corporativo (Senior em AWS)
+              e pipelines de integração B2B/EDI (Sintel).
             </p>
           </div>
 
