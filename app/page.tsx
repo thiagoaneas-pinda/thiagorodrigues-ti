@@ -786,6 +786,18 @@ function AboutSection() {
               experiência para times que precisam de mais do que um
               &quot;especialista&quot;, precisam de um guardião da operação.
             </p>
+			<p
+              style={{
+                color: "rgba(255,255,255,0.42)",
+                fontSize: "0.975rem",
+                lineHeight: 1.82,
+              }}
+            >
+              Atuação especializada em governança técnica e suporte N3 para soluções 
+			  de missão crítica de terceiros (3rd Party / DBS), abrangendo ecossistemas
+			  fiscais e aduaneiros (Thomson Reuters via Citrix), RH corporativo (Senior em AWS) 
+			  e pipelines de integração B2B/EDI (Sintel).
+            </p>
           </div>
 
           {/* Right — Highlights */}
